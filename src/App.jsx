@@ -1,10 +1,9 @@
-import { Route, Routes, useNavigate } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import  Navbar  from './components/Navbar' 
 
 import './global.css'
 
 function App() {
-  const navigate = useNavigate()
 
   return (
     <>

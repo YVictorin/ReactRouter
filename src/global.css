@@ -42,7 +42,7 @@ nav .link {
   color: var(--text-color);
 }
 
-nav .link:hover {
+nav .link:hover, .active {
   background-color: var(--accent-color);
 }
 

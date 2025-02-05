@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 export default function Navbar() {
+  
     return (
         <nav>
           {/* all ids match up with the labels for toggling open and close */}
@@ -14,9 +15,9 @@ export default function Navbar() {
             <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
             </label>
 
-            <Link className="link home-link" to="/">Home</Link>
-            <Link className="link" to="/about">About</Link>
-            <Link className="link" to="/contact">Contact Us</Link>
+            <NavLink activeClassName="active" className="link home-link" to="/">Home</NavLink>
+            <NavLink activeClassName="active" className="link" to="/about">About</NavLink>
+            <NavLink activeClassName="active" className="link" to="/contact">Contact Us</NavLink>
           </div>
 
          
